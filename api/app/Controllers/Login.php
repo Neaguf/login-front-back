@@ -29,9 +29,8 @@ class Login extends BaseController
       $user = $results[0];
 
       $token = md5(date("Y-m-d H:i:s.u"));
-      $dataExpirare = "2023-12-12";
-      // $dataExpirare->modify("+1 day");
-      // $dataExpirare = $dataExpirare->format("Y-m-d");
+      $dataExpirare = date("Y-m-d", strtotime(date("Y-m-d") . " +1 day"));
+
       $sql =
         "INSERT INTO tokens (idUser, token, expirareToken) VALUES (?, ?, ?);";
       $result = $db->query($sql, [$user->id, $token, $dataExpirare]);
@@ -56,7 +55,16 @@ class Login extends BaseController
     $results = $db->query($query, [$token])->getResult();
 
     if (count($results) != 0) {
-      $res->ok = true;
+      $userToken = $results[0];
+      // aici verificam daca tokenul a expirat
+      $dataExpirareToken = $userToken->expirareToken;
+      $now = date("Y-m-d");
+
+      if ($dataExpirareToken < $now) {
+        $res->ok = false;
+      } else {
+        $res->ok = true;
+      }
     }
 
     echo json_encode($res);

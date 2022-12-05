@@ -85,3 +85,115 @@ in APPPATH\Controllers\Login.php on line 56.
  3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
  4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
  5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-05 13:48:43 --> Undefined variable $dataExpirare
+in APPPATH\Controllers\Login.php on line 65.
+ 1 APPPATH\Controllers\Login.php(65): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $dataExpirare', 'APPPATH\\Controllers\\Login.php', 65)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Login->checkToken()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-05 13:48:44 --> Undefined variable $dataExpirare
+in APPPATH\Controllers\Login.php on line 65.
+ 1 APPPATH\Controllers\Login.php(65): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $dataExpirare', 'APPPATH\\Controllers\\Login.php', 65)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Login->checkToken()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-05 13:48:49 --> Undefined variable $dataExpirare
+in APPPATH\Controllers\Login.php on line 65.
+ 1 APPPATH\Controllers\Login.php(65): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $dataExpirare', 'APPPATH\\Controllers\\Login.php', 65)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Login->checkToken()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-05 13:48:51 --> Undefined variable $dataExpirare
+in APPPATH\Controllers\Login.php on line 65.
+ 1 APPPATH\Controllers\Login.php(65): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $dataExpirare', 'APPPATH\\Controllers\\Login.php', 65)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Login->checkToken()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-05 13:48:53 --> Undefined variable $dataExpirare
+in APPPATH\Controllers\Login.php on line 65.
+ 1 APPPATH\Controllers\Login.php(65): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $dataExpirare', 'APPPATH\\Controllers\\Login.php', 65)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Login->checkToken()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-05 13:49:11 --> Undefined variable $dataExpirare
+in APPPATH\Controllers\Login.php on line 65.
+ 1 APPPATH\Controllers\Login.php(65): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $dataExpirare', 'APPPATH\\Controllers\\Login.php', 65)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Login->checkToken()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-05 13:49:46 --> Undefined variable $dataExpirare
+in APPPATH\Controllers\Login.php on line 65.
+ 1 APPPATH\Controllers\Login.php(65): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $dataExpirare', 'APPPATH\\Controllers\\Login.php', 65)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Login->checkToken()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-05 13:50:37 --> Undefined variable $dataExpirare
+in APPPATH\Controllers\Login.php on line 66.
+ 1 APPPATH\Controllers\Login.php(66): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $dataExpirare', 'APPPATH\\Controllers\\Login.php', 66)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Login->checkToken()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-05 13:50:39 --> Undefined variable $dataExpirare
+in APPPATH\Controllers\Login.php on line 66.
+ 1 APPPATH\Controllers\Login.php(66): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $dataExpirare', 'APPPATH\\Controllers\\Login.php', 66)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Login->checkToken()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-05 13:50:48 --> Undefined variable $dataExpirare
+in APPPATH\Controllers\Login.php on line 66.
+ 1 APPPATH\Controllers\Login.php(66): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $dataExpirare', 'APPPATH\\Controllers\\Login.php', 66)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Login->checkToken()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-05 13:50:49 --> Undefined variable $dataExpirare
+in APPPATH\Controllers\Login.php on line 66.
+ 1 APPPATH\Controllers\Login.php(66): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $dataExpirare', 'APPPATH\\Controllers\\Login.php', 66)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Login->checkToken()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-05 13:51:01 --> Undefined variable $dataExpirare
+in APPPATH\Controllers\Login.php on line 66.
+ 1 APPPATH\Controllers\Login.php(66): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $dataExpirare', 'APPPATH\\Controllers\\Login.php', 66)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Login->checkToken()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-05 13:51:14 --> Undefined variable $dataExpirare
+in APPPATH\Controllers\Login.php on line 64.
+ 1 APPPATH\Controllers\Login.php(64): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $dataExpirare', 'APPPATH\\Controllers\\Login.php', 64)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Login->checkToken()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-05 13:51:25 --> Undefined variable $dataExpirare
+in APPPATH\Controllers\Login.php on line 64.
+ 1 APPPATH\Controllers\Login.php(64): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $dataExpirare', 'APPPATH\\Controllers\\Login.php', 64)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Login->checkToken()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-05 13:51:34 --> Undefined variable $dataExpirare
+in APPPATH\Controllers\Login.php on line 64.
+ 1 APPPATH\Controllers\Login.php(64): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $dataExpirare', 'APPPATH\\Controllers\\Login.php', 64)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Login->checkToken()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-05 13:51:43 --> Undefined variable $dataExpirare
+in APPPATH\Controllers\Login.php on line 64.
+ 1 APPPATH\Controllers\Login.php(64): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $dataExpirare', 'APPPATH\\Controllers\\Login.php', 64)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Login->checkToken()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
