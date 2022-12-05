@@ -41,18 +41,22 @@ export default {
     };
   },
   methods: {
-    click() {
-      this.axios
-        .post("http://localhost/db-login/public/Login/login", {
+    async click() {
+      let res = await this.axios.post(
+        "http://localhost/db-login/public/Login/login",
+        {
           email: this.email,
           password: this.password,
-        })
-        .then((res) => {
-          if (res.data.ok) {
-            localStorage.setItem("emailUtilizator", this.email);
-            this.$router.push("/produse");
-          }
-        });
+        }
+      );
+
+      console.log({ raspuns: res });
+
+      if (res.data.ok) {
+        localStorage.setItem("idUtilizator", res.data.idUser);
+        localStorage.setItem("token", res.data.token);
+        this.$router.push("/produse");
+      }
     },
   },
 };

@@ -87,10 +87,21 @@ export default {
     async editeazaProdus(id) {},
   },
   async mounted() {
-    if (!localStorage.getItem("emailUtilizator")) {
+    if (!localStorage.getItem("token")) {
       this.$router.push("/");
     } else {
-      this.getInfo();
+      let res = await this.axios.post(
+        "http://localhost/db-login/public/Login/checkToken",
+        {
+          token: localStorage.getItem("token"),
+        }
+      );
+
+      if (res.data.ok) {
+        await this.getInfo();
+      } else {
+        this.$router.push("/");
+      }
     }
   },
 };
